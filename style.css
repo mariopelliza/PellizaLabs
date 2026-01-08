@@ -106,3 +106,39 @@
 .mb-0 {
     margin-bottom: 0;
 }
+/* === FIX: Mantener footer al fondo === */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Hace que el contenido principal empuje el footer hacia abajo */
+main {
+  flex: 1;
+}
+
+/* Ajuste visual del footer */
+.pelliza-footer {
+  background-color: #212529;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 3px solid var(--pelliza-primary);
+  margin-top: 0; /* elimina espacio innecesario arriba */
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.pelliza-footer p {
+  margin: 0;
+}
