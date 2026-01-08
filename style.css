@@ -85,3 +85,24 @@
         font-size: 1.5rem;
     }
 }
+/* Estilos para footer sin Bootstrap */
+.pelliza-footer {
+    background-color: #212529;
+    color: white;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
