@@ -90,7 +90,9 @@
     background-color: #212529;
     color: white;
     padding: 2rem 0;
-    margin-top: 3rem;
+    margin-top: auto;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .footer-container {
@@ -125,12 +127,14 @@ main {
 
 /* Ajuste visual del footer */
 .pelliza-footer {
-  background-color: #212529;
-  color: white;
-  text-align: center;
-  padding: 2rem 0;
-  border-top: 3px solid var(--pelliza-primary);
-  margin-top: 0; /* elimina espacio innecesario arriba */
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 3px solid var(--pelliza-primary);
+    margin-top: auto; /* empuja footer hacia abajo */
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .footer-container {
