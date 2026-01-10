@@ -146,3 +146,11 @@ main {
 .pelliza-footer p {
   margin: 0;
 }
+
+/* Imagen de fondo */
+body {
+    background-image: url('imagenes/fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
