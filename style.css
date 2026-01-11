@@ -1,7 +1,8 @@
 /* ESTILOS PERSONALIZADOS PARA PELLIZALABS */
 
 body {
-  background: linear-gradient(135deg, #0a0a2e, #1a1a5a);
+  background: linear-gradient(135deg, #0b1f3b, #2a3a72); /* azul oscuro a azul medio */
+  color: #ffffff; /* texto blanco para contraste */
 }
 
 .page-title {
@@ -153,7 +154,7 @@ main {
 
 /* Imagen de fondo */
 body {
-    background-image: url('imagenes/fondo.jpg');
+    background-image: url('imagenes/fondo inicio.png');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
