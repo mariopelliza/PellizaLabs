@@ -1,5 +1,9 @@
 /* ESTILOS PERSONALIZADOS PARA PELLIZALABS */
 
+body {
+  background: linear-gradient(135deg, #0a1f44, #3a3a95);
+}
+
 .page-title {
     font-size: 3.2rem;
     font-weight: 900;
